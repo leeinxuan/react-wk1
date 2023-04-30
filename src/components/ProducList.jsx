@@ -1,8 +1,8 @@
 import ProductItem from "./ProductItem"
-import products from "../json/products.json"
+//import products from "../json/products.json"
 import { Row, Col } from "antd"
 
-export default function ProducList() {
+export default function ProducList({products, isLoading}) {
     return (
         <div className="row">
             <h1 className="text-center">IMAGES</h1>
